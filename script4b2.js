@@ -9,9 +9,9 @@
 //the second script refers to the local javascript file
 
 //the function below fetches data using get function
-//it is placed above pageloaded and get 
+//it is placed above pageloaded function and $get 
 //this is so as to have a ready recipie/function before we try to run it
-//I would expect "Latte" to show up.
+//I would expect "Latte" to show up in as it's the zero-eth attribute from the json array
 
 function addJSONToPage(jsonData){
 
@@ -19,13 +19,13 @@ function addJSONToPage(jsonData){
 	console.log(jsonData.myBeverages[0].name);
  var mydataDiv= $("<div>");
  mydataDiv.html(jsonData);
- $("#contentcreator").append("mydataDiv");
+ $("#contentContainer").append("mydataDiv");
 }
 
 function pageLoaded(){
 
 /* NOTE: I wanted to use jquery for div, but the second line with the 	$myjQDiv.html("This is my jquery div.");
- wasn't working. Wnile attemting plain text js as written below, too,
+ wasn't working. Wnile attemting an alternative code with plain text js as written below, too,
   the childdiv appears as not defined:
 var myjsDiv= document.createElement("div");
 myjsDiv.innerHTML="this is my js div";
