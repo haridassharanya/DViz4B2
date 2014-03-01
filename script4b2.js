@@ -3,7 +3,7 @@
  */
 function addJSONToPage(jsonData){
 
-	console.log(json4b2.json);
+	console.log(jsonData);
  var mydataDiv= $("div");
  mydataDiv.html(jsonData);
  $("#contentcreator").append("mydataDiv");
@@ -12,18 +12,18 @@ function addJSONToPage(jsonData){
 function pageLoaded(){
 
 	// jquery div
-	var myjQDiv = $ ("<div>");
-	$myjQDiv.html("This is my jquery div");
-	$("#contentcontainer").append(myjQDiv);
+	var myjQDiv = $("<div>");
+	$myjQDiv.html("This is my jquery div.");
+	$("#contentContainer").append(myjQDiv);
 	
 	//first parameter comment
 	//second
 	//third
 	
+	$get("json4b2.json", addJSONtoPage, "json");
+	
 	console.log("My document is loaded");
 	
-	$.get("json4b2.json", addJSONToPage, "json");
-
 	
 }
 
