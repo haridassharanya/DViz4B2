@@ -1,6 +1,6 @@
 {
 
-"myBeverages"" : [{
+"myBeverages" : [{
             "name": "Latte",
              "flavor":"coffee""
              }, {
@@ -13,7 +13,6 @@
                "name":"TobleroneShake", 
                "flavor":"chocolate"
                
-              }]
-            
+              }]    
   }
 			
