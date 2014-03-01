@@ -1,5 +1,19 @@
-{myBeverages :[{"name": "Latte", "flavor":"coffee""}, 
-			{"name":"Frappe", "flavor":"coffee"}, 
-			{"name":"HotChocolate", "flavor":"chocolate"},
-			{"name":"TobleroneShake", "flavor":"chocolate"}]}
+{
+
+"myBeverages"" : [{
+            "name": "Latte",
+             "flavor":"coffee""
+             }, {
+             "name":"Frappe",
+              "flavor":"coffee"
+              }, {
+              "name":"HotChocolate",
+               "flavor":"chocolate"
+               },{
+               "name":"TobleroneShake", 
+               "flavor":"chocolate"
+               
+              }]
+            
+  }
 			
