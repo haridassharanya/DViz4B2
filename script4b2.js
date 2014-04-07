@@ -18,15 +18,6 @@ function addJSONTomPage(mjsonData){
 
 function mpageLoaded(){
 
-/* NOTE: I wanted to use jquery for div, but the second line with the 	$mjQDiv.html("This is my jquery div.");
- wasn't working. Wnile attemting an alternative code with plain text js as written below, too,
-  the childdiv appears as not defined:
-var myjsDiv= document.createElement("div");
-myjsDiv.innerHTML="this is my js div";
-var targetdiv=document.getElementById("content container");
-targetDiv.appendChild(myjsDiv); */
-
-
 	// below is my jquery div - it performs the same function as plain js code, but more concisely
 	//upon removing the "$" sign from the secondline, 
 	//the statement "this is my jquery div" shows up in the browser.
